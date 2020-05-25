@@ -48,6 +48,7 @@
         <module>index</module>
     </modules>
 
+  
     <build>
         <pluginManagement>
             <plugins>
@@ -939,10 +940,10 @@
             <url>http://opennlp.sourceforge.net/maven2/</url>
         </repository>
 
-        <repository>
+<!--         <repository>
             <id>igetdb.sourceforge</id>
             <url>http://igetdb.sourceforge.net/maven2-repository</url>
-        </repository>
+        </repository> -->
 
         <repository>
             <id>sonatype</id>
@@ -970,6 +971,10 @@
             <url>http://maven.aksw.org/archiva/repository/internal</url>
         </repository>
 
+          <repository>
+              <id>spring</id>
+              <url>https://repo.spring.io/plugins-release/</url>
+          </repository>
     </repositories>
 
     <pluginRepositories>
